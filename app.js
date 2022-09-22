@@ -20,7 +20,7 @@ function checkBirthDateIsLucky() {
   }
 
   else {
-    outputBox.innerHTML = "please enter both the feilds";
+    outputBox.innerHTML = "please enter both the fields";
   }
 
 }
