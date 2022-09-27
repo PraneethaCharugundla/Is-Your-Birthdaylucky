@@ -3,12 +3,18 @@ const luckyNumber = document.querySelector("#lucky-number");
 const checkNumberButton = document.querySelector("#check-number");
 const outputBox = document.querySelector("#output-box");
 function compareValues(sum, luckyNumber) {
-  if (sum % luckyNumber === 0) {
-    outputBox.innerText = "Your birthday is lucky  🥳 🥳";
+  if(luckyNumber <= 0 ){
+    outputBox.innerText = "Please enter a valid lucky number";
   }
   else {
-    outputBox.innerText = "Your birthday is not lucky 😕";
+    if (sum % luckyNumber === 0) {
+      outputBox.innerText = "Your birthday is lucky  🥳 🥳";
+    }
+    else {
+      outputBox.innerText = "Your birthday is not lucky 😕";
+    }
   }
+  
 
 }
 function checkBirthDateIsLucky() {

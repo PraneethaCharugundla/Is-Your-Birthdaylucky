@@ -87,6 +87,11 @@ html, body {
     bottom: 0;
     left: 0;
     right: 0;
+
+  }
+  footer  a{ 
+ text-decoration: none;
+ margin-right: 1rem;
   }
   
   footer p {
@@ -106,4 +111,5 @@ html, body {
   h1 {
     text-align: center;
   }
+
   
